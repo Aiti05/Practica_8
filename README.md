@@ -2,7 +2,7 @@
 
 
 
-## ** Ejercicio practico 1 bucle de comunicacion uart2:**
+## **Ejercicio practico 1 bucle de comunicacion uart2:**
 **Codigo main.cpp:**
 ```
 #include <Arduino.h>
@@ -55,7 +55,7 @@ La salida que aparece en el monitor al escribir algun caracter es:
 ...
 ```
 
-## ** Ejercicio practico 2 (optativo) modulo GPS:**
+## **Ejercicio practico 2 (optativo) modulo GPS:**
 **Codigo main.cpp:**
 ```
 #include <TinyGPS.h>
