@@ -1,4 +1,10 @@
 ## **PRACTICA 8 : Buses de comunicación IV (uart)**
+En esta práctica se busca comprender el funcionamiento de la comunicación serie asíncrona mediante el uso del protocolo UART (Universal Asynchronous Receiver-Transmitter). Aunque en prácticas anteriores hemos utilizado la comunicación serie de manera básica con Serial.print, aquí se profundiza en su estructura, configuración y aplicaciones prácticas reales.
+
+El protocolo UART es fundamental en sistemas embebidos y comunicaciones de microcontroladores, permitiendo la transmisión de datos sin necesidad de una señal de reloj externa. La sincronización se logra mediante un bit de inicio (start bit) seguido de datos, opcionalmente un bit de paridad y uno o más bits de parada (stop bits).
+
+Durante la práctica se realizan varios ejercicios: uno básico de comunicación en bucle usando el puerto UART2 del ESP32, y dos ejercicios optativos donde se aplican módulos GPS y GSM/GPRS que comunican datos al ESP32 a través de UART. En el presente informe se documenta el primer ejercicio obligatorio.
+
 
 
 
